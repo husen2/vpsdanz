@@ -1,5 +1,5 @@
-sudo adduser kchi --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "kchi:kchi" | sudo chpasswd
+sudo adduser munz --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "munz:munz" | sudo chpasswd
 sudo usermod -aG sudo,adm admin
 apt update
 clear
@@ -20,7 +20,7 @@ sudo service xrdp start
 clear
 echo "=======================100%"
 echo "===================================="
-echo "Username : kchi"
-echo "Password : kchi"
+echo "Username : munz"
+echo "Password : munz"
 echo Go to settings add port 3389
 echo "===================================="
